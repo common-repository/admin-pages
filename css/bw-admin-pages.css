@@ -1,0 +1,69 @@
+#bwap_menu { 
+    width: 100%;
+    font-size: 15px;
+}
+
+.bwap_button {
+    height: 50px;
+    padding: 5px 20px;
+    border-top: 1px solid #dedede;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.bwap_button:hover {
+    background-color: #EEE;
+}
+
+.bwap_button span {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: normal;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+.bwap_button span div {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.bwap_button .alignright {
+    color: #D4D4D4;
+    font-size: 15px;
+    vertical-align: middle;
+}
+	
+.bwap_content {
+	background-color: #FFF;
+	display: none;
+	padding: 10px 20px;
+}
+
+.section_last {
+    border-bottom: 1px solid #dedede;
+}
+
+#bwap_list {
+    width: 100%;
+    max-width: 600px;
+}
+#bwap_list a {
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+}
+#bwap_list a li {
+    margin-bottom: 0px !important;
+    border-top: 1px solid #EBEBEB;
+    padding: 10px 10px;
+}
+#bwap_list a li:hover {
+    background-color: #F5F5F5;
+}
+#bwap_list_last {
+    border-bottom: 1px solid #EBEBEB;
+}
